@@ -57,39 +57,4 @@ public class EggPuzzle {
         return (int)(Math.random()*range + min);
     }
 
-    public static void juks(ArrayList<ArrayList<Boolean>> carton){
-        carton.get(0).set(2,true);
-        carton.get(0).set(4,true);
-        carton.get(0).set(6,true);
-        carton.get(1).set(1,true);
-        carton.get(1).set(4,true);
-        carton.get(1).set(5,true);
-        carton.get(2).set(2,true);
-        carton.get(2).set(5,true);
-        carton.get(2).set(7,true);
-        carton.get(3).set(0,true);
-        carton.get(3).set(8,true);
-        carton.get(3).set(9,true);
-        carton.get(4).set(1,true);
-        carton.get(4).set(3,true);
-        carton.get(4).set(4,true);
-        carton.get(5).set(0,true);
-        carton.get(5).set(2,true);
-        carton.get(5).set(6,true);
-        carton.get(6).set(0,true);
-        carton.get(6).set(8,true);
-        carton.get(6).set(9,true);
-        carton.get(7).set(1,true);
-        carton.get(7).set(3,true);
-        carton.get(7).set(8,true);
-        carton.get(8).set(9,true);
-        carton.get(8).set(7,true);
-        carton.get(8).set(6,true);
-        carton.get(9).set(3,true);
-        carton.get(9).set(5,true);
-        carton.get(9).set(7,true);
-
-
-    }
-
 }
